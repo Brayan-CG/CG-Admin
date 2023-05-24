@@ -5,32 +5,26 @@ function app(){
    document.getElementById("app").style.display="block"
 }
 function github(){
-   document.getElementById("github").style.display="block"
+   location.href="go:2"
 }
 function admob(){
-   document.getElementById("admob").style.display="block"
+   location.href="go:4"
 }
 function ads(){
-   document.getElementById("ads").style.display="block"
+   location.href="go:7"
 }
 function aternos(){
-   document.getElementById("aternos").style.display="block"
+   location.href="go:5"
 }
 function firebase(){
-   document.getElementById("firebase").style.display="block"
+   location.href="go:3"
 }
 function netlify(){
-   document.getElementById("netlify").style.display="block"
+   location.href="go:6"
 }
 function volver(){
    document.getElementById("app").style.display="none";
-   document.getElementById("github").style.display="none";
-   document.getElementById("admob").style.display="none";
-   document.getElementById("ads").style.display="none";
-   document.getElementById("aternos").style.display="none";
-   document.getElementById("firebase").style.display="none";
-   document.getElementById("netlify").style.display="none";
 }
 function QR(){
-   location.href="go:1"
+   location.href="go:QR"
 }
