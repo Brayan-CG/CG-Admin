@@ -19,7 +19,7 @@ body
 .cards
 {
     display:grid;
-    margin-top: 22%;
+    margin-top: 30%;
     grid-template-columns: 1fr 1fr 1fr;
     list-style:none;
 }
