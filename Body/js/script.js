@@ -14,13 +14,13 @@ function ads(){
    location.href="go:7"
 }
 function aternos(){
-   location.href="go:5"
+   location.href="go:6"
 }
 function firebase(){
    location.href="go:3"
 }
 function netlify(){
-   location.href="go:6"
+   location.href="go:5"
 }
 function volver(){
    document.getElementById("app").style.display="none";
