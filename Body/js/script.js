@@ -31,3 +31,6 @@ function volver(){
    document.getElementById("firebase").style.display="none";
    document.getElementById("netlify").style.display="none";
 }
+function QR(){
+   location.href="go:1"
+}
