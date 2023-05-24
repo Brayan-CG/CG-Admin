@@ -1,0 +1,118 @@
+body
+{
+   background: #000;
+}
+#xs-header
+{
+    background: #000;
+    float: left;
+    margin-bottom: 4px;
+    overflow: hidden;
+    z-index: 99999;
+    left: 0; 
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #b095ff;
+}
+.cards
+{
+    display:grid;
+    margin-top: 22%;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style:none;
+}
+.card img
+{
+    padding: 1px;
+    width: 95%;
+    height: 95%;
+    border-radius: 8px;
+}
+iframe
+{
+    overflow: hidden;
+    z-index: 9999;
+    display: none;
+    position: absolute;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+footer
+{
+    background:#000;
+    overflow: hidden;
+    z-index: 99999;
+    display:flex;
+    width:100%;
+    bottom:0;
+    justify-content:space-around;
+    align-items:center;
+    padding: 2%;
+    position: fixed;
+    left:0;
+    right:0px;
+    color:#fff;
+    border-top: 4px solid #b095ff;
+}
+
+footer div
+{
+    font-size:10px;
+    text-align: center;
+    justify-content:center;
+    align-items:center;
+}
+
+footer i
+{
+    padding-left:0px;
+}
+
+/*footer end*/
+footer img
+{
+    height: 10%;
+    width: 20%;
+    margin-bottom:3px;
+}
+
+footer svg
+{
+    height: 10%;
+    width: 20%;
+    margin-bottom:3px;
+}
+
+footer span
+{
+    transform:scale(1);
+}
+
+#s-f
+{
+    font-size: 20px;
+    padding: 20%;
+    margin-bottom:40px;
+}
+
+.slider ul 
+{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.foot-m
+{
+   font-size: 20px; 
+}
+
+.foot-m a i img
+{
+    width: 30%;
+}
