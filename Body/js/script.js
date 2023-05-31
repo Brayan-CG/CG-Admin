@@ -22,6 +22,9 @@ function firebase(){
 function netlify(){
    location.href="go:5"
 }
+function geforce(){
+   location="go:8"
+}
 function volver(){
    document.getElementById("app").style.display="none";
 }
