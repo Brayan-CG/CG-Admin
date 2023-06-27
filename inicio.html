@@ -3,6 +3,8 @@
 <head>
    <meta charset="UTF-8">
    <link rel="stylesheet" href="Body/css/style.css">
+   <link rel="stylesheet" href="css/sweetalert.css">
+   <link rel="shortcut icon" href="Body/Iconos/CG Admin.png" type="image/x-icon">
    <title>CG Admin - CG Studios</title>
 </head>
 <body>
@@ -38,19 +40,31 @@
 <li><a href="javascript:geforce()" class="card">
 <img alt="imagen" src="Body/Iconos/Geforce.jpg"/></a></li> 
 
+<li><a href="javascript:CG()" class="card">
+<img alt="imagen" src="Body/Iconos/CG Pelis.jpg"/></a></li> 
+
+<li><a href="javascript:noti()" class="card">
+<img alt="imagen" src="Body/Iconos/noti.jpg"/></a></li> 
+
+<li><a href="javascript:google()" class="card">
+<img alt="imagen" src="Body/Iconos/google.jpg"/></a></li> 
+
 <!-- <li><a href="#" class="card">
 <img alt="imagen" src="Body/Iconos/"/></a></li> -->
 
-<!-- iframe -->
-
-<iframe id="app" src="https://www.appcreator24.com/intra/intra.php?idioma=es&idsesion=dr7u1yo49nea2m8txwi65bkcflp0jvzqhgs3&postlogin=1"></iframe>
-
-<!-- <iframe id="#" src="#"></iframe> -->
-<!-- audio -->
-
-<audio src="Body/Audio.mp3" autoplay></audio>
-
 <script src="Body/js/script.js"></script>
+<!-- firebase -->
+
+<script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js" type="module"></script>
+<script src="https://www.gstatic.com/firebasejs/9.21.0/firebase.js" type="module"></script>
+<script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-firestore.js" type="module"></script>
+<script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth.js" type="module"></script>
+
+<!-- login -->
+
+<script src="Body/js/firebase.js" type="module"></script>
+<script src="Body/js/check.js" type="module"></script>
+<script src="Body/Funciones/js/sweetalert.js"></script>
    
 </body>
 </html>
