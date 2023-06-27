@@ -2,7 +2,7 @@ function inicio(){
    location.href="go:1"
 }
 function app(){
-   document.getElementById("app").style.display="block"
+   location.href="go:9"
 }
 function github(){
    location.href="go:2"
@@ -25,8 +25,14 @@ function netlify(){
 function geforce(){
    location.href="go:8"
 }
-function volver(){
-   document.getElementById("app").style.display="none";
+function CG(){
+    location.href="go:10"
+}
+function noti(){
+    location.href="go:11"
+}
+function google(){
+    location.href="go:12"
 }
 function QR(){
    location.href="go:QR"
