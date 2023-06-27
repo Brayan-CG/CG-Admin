@@ -1,0 +1,163 @@
+body
+{
+    background: #000;
+    color: #fff;
+}
+.logo
+{
+    background: #000;
+    float: left;
+    margin-bottom: 4px;
+    overflow: hidden;
+    z-index: 99999;
+    left: 0; 
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #b095ff;
+}
+#audio
+{
+    display: none;
+}
+p
+{
+    color: #fff;
+    font: 14px;
+}
+h2
+{
+    color: #fff;
+    text-align: center;
+}
+div .posters
+{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 3px;
+    width: 100%;
+    float: left;
+    margin-bottom: 8px;
+    left: 0;
+    border-top: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+}
+.posters img
+{
+    padding: 2%;
+    background: #000;
+    width: 16%;
+}
+.foto
+{
+   margin-top: 18%;
+}
+footer
+{
+    background:#000;
+    overflow: hidden;
+    z-index: 99999;
+    display:flex;
+    width:100%;
+    bottom:0;
+ justify-content:space-around;
+    align-items:center;
+    padding: 2%;
+    position:fixed;
+    left:0;
+    right:0px;
+    color:#fff;
+    border-top: 2px solid #b095ff;
+}
+
+footer div
+{
+    font-size:10px;
+    text-align: center;
+    justify-content:center;
+    align-items:center;
+}
+
+footer i
+{
+    padding-left:0px;
+}
+
+/*footer end*/
+footer img
+{
+    height: 10%;
+    width: 20%;
+    margin-bottom:3px;
+}
+
+footer svg
+{
+    height: 10%;
+    width: 20%;
+    margin-bottom:3px;
+}
+
+footer span
+{
+    transform:scale(1);
+}
+
+#s-f
+{
+    font-size: 20px;
+    padding: 20%;
+    margin-bottom:40px;
+}
+
+.slider ul 
+{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.foot-m
+{
+   font-size: 20px; 
+}
+
+.foot-m a i img
+{
+    width: 30%;
+}
+.política
+{
+    background: #fff;
+    display: none;
+    color: #000;
+    position: absolute;
+    margin: auto;
+    padding: 8%;
+    top: 14%;
+    left: 8%;    
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+.política a img
+{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 10%;
+}
+.política h3
+{
+    color: #b095ff;
+    text-align: center;
+}
+.política a
+{
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
