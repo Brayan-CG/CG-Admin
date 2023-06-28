@@ -1,7 +1,7 @@
 import { signOut } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-auth.js"
 import { auth } from "./firebase.js";
 
-const logout = document.querySelector(".logout");
+const logout = document.querySelector(".cerrar");
 
 logout.addEventListener("click", async (e) => {
   e.preventDefault();
@@ -20,6 +20,12 @@ logout.addEventListener("click", async (e) => {
     }, 1200*2);
     console.log("signup out");
   } catch (error) {
-    console.log(error)
+    swal.fire({
+        icon: 'error',
+        title: 'Error',
+        text: 'parece que a ocurrio un error',
+        showConfirmButton: false,
+        timer: 2000
+    });
   }
 });

@@ -6,8 +6,8 @@ const signInForm = document.querySelector("#login-form");
 signInForm.addEventListener("submit", async (e) => {
   e.preventDefault();
   //const displayName = signInForm["login-name"].value;
-  const email = signInForm["login-email"].value;
-  const password = signInForm["login-password"].value;
+const email = signInForm["login-email"].value;
+const password = signInForm["login-password"].value;
 
   try {
     const userCredentials = await signInWithEmailAndPassword(auth, email, password)
@@ -21,7 +21,7 @@ signInForm.addEventListener("submit", async (e) => {
         
         Swal.fire({
             icon: 'success',
-            title: 'Bienvanid@',
+            title: 'Bienvenido',
             text: "" + userCredentials.user.email,
             showConfirmButton: false,
             timer: 2000

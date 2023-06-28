@@ -9,7 +9,7 @@ onAuthStateChanged(auth, (user) => {
     
     console.log(user)
 }else{
-   location.href="sesión"
+   location.href="sesión.html"
    console.log('signup')
 }
 });

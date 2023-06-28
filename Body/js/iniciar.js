@@ -6,7 +6,7 @@ onAuthStateChanged(auth, (user) => {
   if (user) {
  
     Swal.fire({
-    imageUrl: 'https://cg-pelis.netlify.app/Body/Iconos/logo.png',
+    imageUrl: 'https://cg-admin.netlify.app/Body/Iconos/CG Admin.png',
     imageWidth: 200,
     imageHeight: 200,
     imageAlt: 'Custom image',
@@ -25,7 +25,7 @@ onAuthStateChanged(auth, (user) => {
     console.log(user)
 }else{
     Swal.fire({
-    imageUrl: 'https://cg-pelis.netlify.app/Body/Iconos/logo.png',
+    imageUrl: 'https://cg-admin.netlify.app/Body/Iconos/CG Admin.png',
     imageWidth: 200,
     imageHeight: 200,
     imageAlt: 'Custom image',
