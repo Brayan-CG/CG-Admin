@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Body/css/Load.css">
     <link rel="stylesheet" href="Body/css/confi.css">
+    <link rel="stylesheet" href="css/sweetalert.css">
     <title>Configuración</title>
 </head>
 <body>
@@ -13,20 +14,27 @@
     
     <center>
     <div class="foto">
-        <a href="javascript:audio()"><img src="Body/Iconos/CG Admin.png" width="50%"></img></a>
+        <a href="javascript:foto()"><img src="Body/Iconos/CG Admin.png" width="50%"></img></a>
     </div>
     </center>
     
     <div id="user">
        <h2>Usuario</h2>
        <center><ul id="data"></ul></center>
-    </div>
+    </div><br>
+    
+    <div class="boton">
+        <a class="cerrar" href="">Cerrar Sesión</a>
+        <a class="borrar" href="">Borrar Cuenta</a>
+    </div><br>
     
     <h2>Más</h2>
 
 <div><div align="center" class="posters">
 
-
+<a href="javascript:WhatsApp()"><img src="Body/Iconos/WhatsApp.png"></a>
+<a href="javascript:info()"><img src="Body/Iconos/info.png"></a>
+<a href="javascript:Facebook()"><img src="Body/Iconos/facebook.png"></a>
 
 </div></div>
 
@@ -48,6 +56,7 @@
 
 <script src="Body/js/firebase.js" type="module"></script>
 <script src="Body/js/User.js" type="module"></script>
+<script src="Body/js/cerrar.js" type="module"></script>
 <script src="Body/js/sweetalert.js"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9931816603051611"
