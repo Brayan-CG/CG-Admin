@@ -10,7 +10,7 @@
 
 body
 {
-   background: #000;
+   background: black;
    height: 100vh;
    width: 100%;
    display: flex;
@@ -189,12 +189,11 @@ h2
 }
 input[type="submit"]
 {
-	border: none;
-	outline: none;
+  color: white;
 	padding: 11px 25px;
-	background: #b095ff;
-	cursor: pointer;
-	border-radius: 4px;
+	background: transparent;
+	border: solid 3px #b095ff;
+	border-radius: 8px;
 	font-weight: 620;
 	width: 120px;
 	margin: auto;
@@ -202,5 +201,7 @@ input[type="submit"]
 }
 input[type="submit"]:active 
 {
-	opacity: 0.8;
+  color: black;
+  background: #b095ff;
+	border: solid 3px white;
 }

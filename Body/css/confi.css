@@ -17,9 +17,50 @@ body
     height: auto;
     border-bottom: 2px solid #b095ff;
 }
-#audio
+.boton
 {
-    display: none;
+    justify-content: center;
+    align-content: center;
+}
+.boton a
+{
+    text-decoration: none;
+}
+.cerrar
+{
+    position: relative;
+    left: 24%;
+    color: white;
+    padding: 2%;
+    border: solid 3px red;
+    border-radius: 10px;
+    background: transparent;
+}
+.cerrar:hover
+{
+    color: red;
+    padding: 2%;
+    border: solid 3px red;
+    border-radius: 10px;
+    background: white;
+}
+.borrar
+{
+    position: relative;
+    left: 32%;
+    color: red;
+    padding: 2%;
+    border: solid 3px white;
+    border-radius: 10px;
+    background: transparent;
+}
+.borrar:hover
+{
+    color: white;
+    padding: 2%;
+    border: solid 3px white;
+    border-radius: 10px;
+    background: red;
 }
 p
 {
